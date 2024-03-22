@@ -53,13 +53,13 @@ def main():
             if opcao == 5:
                 print(pot(n1, n2))
         elif opcao == 6:
-            n1 = float(
-                input('Digite um número para saber a raiz quadrada dele: '))
+            n1 = float(input('Digite um número para saber a raiz quadrada dele: '))
             print(raiz(n1,))
         else:
             print("Essa opção não é válida")
-        continuar = input('Deseja fazer alguma outra operação? (sim/não)')
+        continuar = input('Deseja fazer alguma outra operação? (sim/não) ')
         if continuar.upper() != 'SIM':
+            print('Obrigado por utilizar a Calculadora do Pedro! Volte Sempre.')
             break
 if __name__ == '__main__':
     main()
